@@ -4,8 +4,8 @@ environments:
   # >>>>> THIS IS SPARTA!
   - name: prod
     streams:
-      # - id: bailiwicks
-      #   sync_mode: overwrite
+      - id: nepal_mch_ccp_session_quality_assessment_tool
+        sync_mode: deduped
       # - id: hh_listing_example_1
       #   sync_mode: deduped
   # <<<<< THIS IS SPARTA!
